@@ -110,6 +110,11 @@ select {
     font-size: 1rem;
 }
 
+.mute.active {
+    background: rgb(182, 182, 182);
+    color: white;
+}
+
 @keyframes playTrack {
     from {
         transform: scale(1);
