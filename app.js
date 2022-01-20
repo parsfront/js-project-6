@@ -91,10 +91,10 @@ class DrumKit {
                     this.KickAudio.volume = 0;
                     break;
                 case "1":
-                    this.snareAudio.volume = 0;
+                    this.SnareAudio.volume = 0;
                     break;
                 case "2":
-                    this.hihatAudio.volume = 0;
+                    this.hiHatAudio.volume = 0;
                     break;
             }
         } else {
@@ -103,10 +103,10 @@ class DrumKit {
                     this.KickAudio.volume = 1;
                     break;
                 case "1":
-                    this.snareAudio.volume = 1;
+                    this.SnareAudio.volume = 1;
                     break;
                 case "2":
-                    this.hihatAudio.volume = 1;
+                    this.hiHatAudio.volume = 1;
                     break;
             }
         }
