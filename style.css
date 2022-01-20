@@ -80,12 +80,14 @@ svg {
 
 .controls button {
     padding: 1rem;
+    margin: 1.2rem;
     border: none;
     background: rgb(88, 88, 88);
     color: white;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.5s ease;
+    border-radius: 3px;
 }
 
 .pad {
@@ -100,6 +102,7 @@ svg {
     border: none;
     cursor: pointer;
     margin-top: 3rem;
+    border-radius: 3px;
 }
 
 select {
