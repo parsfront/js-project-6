@@ -20,6 +20,7 @@ svg {
     height: 5rem;
     margin: 1rem 0.5rem;
     cursor: pointer;
+    border-radius: 3px;
 }
 
 .kick-pad {
@@ -61,7 +62,7 @@ svg {
     align-items: center;
     width: 70%;
     justify-content: space-between;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .kick,
@@ -102,7 +103,7 @@ svg {
     border: none;
     cursor: pointer;
     margin-top: 3rem;
-    border-radius: 3px;
+    border-radius: 1rem;
 }
 
 select {
@@ -113,6 +114,30 @@ select {
 .mute.active {
     background: rgb(182, 182, 182);
     color: white;
+}
+
+.tempo {
+    margin: 3rem;
+    width: 30%;
+}
+
+.tempo-slider {
+    padding: 0.1rem;
+    -webkit-appearance: none;
+    margin: 1rem 0;
+    width: 100%;
+    position: relative;
+    background: rgb(88, 88, 88);
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.tempo p {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    text-align: center;
 }
 
 @keyframes playTrack {
